@@ -1,0 +1,19 @@
+
+{
+	{
+		"manufacturerId" : 1,
+		"supplyName" : Tesla,
+		"email" : "tesla@gmail.com",
+		"phoneNo" : 9876543210,
+		{
+			"carId" : 1,
+			"model": "modelT1",
+			"manufacturingYear" 1996,
+			"noOfSeats" : 4,
+			"serialNo" : 123,
+			"city" : "Boston",
+			"maintenanceExpiryDate" : "10-10-2000",
+			"isAvailable" : true
+		}		
+	}
+}

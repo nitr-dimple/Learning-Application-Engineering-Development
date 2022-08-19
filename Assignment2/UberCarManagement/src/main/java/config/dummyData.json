@@ -1,0 +1,205 @@
+{
+	"supplierList" : [ {
+		"manufacturerId" : "1",
+		"supplyName" : "Tesla",
+		"email" : "tesla@gmail.com",
+		"phoneNo" : "9876543210",
+		"carCatalog" : {
+			"carCatalog" : [
+				{
+					"carId" : "11",
+					"model": "modelT11",
+					"manufacturingYear": "1996",
+					"noOfSeats" : "4",
+					"serialNo" : "TeslamodelT11",
+					"city" : "Boston",
+					"maintenanceExpiryDate" : "2000",
+					"isAvailable" : true
+				},
+				
+				{
+					"carId" : "12",
+					"model": "modelT12",
+					"manufacturingYear": "1999",
+					"noOfSeats" : "4",
+					"serialNo" : "TeslamodelT12",
+					"city" : "New York",
+					"maintenanceExpiryDate" : "2005",
+					"isAvailable" : false
+				},
+				
+				{
+					"carId" : "13",
+					"model": "modelT13",
+					"manufacturingYear": "1989",
+					"noOfSeats" : "6",
+					"serialNo" : "TeslamodelT13",
+					"city" : "New York",
+					"maintenanceExpiryDate" : "2004",
+					"isAvailable" : true
+				},
+				
+				{
+					"carId" : "14",
+					"model": "modelT14",
+					"manufacturingYear": "2000",
+					"noOfSeats" : "4",
+					"serialNo" : "TeslamodelT14",
+					"city" : "Dallas",
+					"maintenanceExpiryDate" : "2010",
+					"isAvailable" : true
+				},
+				{
+					"carId" : "15",
+					"model": "modelT15",
+					"manufacturingYear": "2000",
+					"noOfSeats" : "2",
+					"serialNo" : "TeslamodelT15",
+					"city" : "California",
+					"maintenanceExpiryDate" : "2007",
+					"isAvailable" : false
+				},
+{
+					"carId" : "16",
+					"model": "modelT15",
+					"manufacturingYear": "2000",
+					"noOfSeats" : "2",
+					"serialNo" : "TeslamodelT151",
+					"city" : "New York",
+					"maintenanceExpiryDate" : "2007",
+					"isAvailable" : false
+				}				
+			]		
+		}		
+	},
+	{
+		"manufacturerId" : "2",
+		"supplyName" : "Honda",
+		"email" : "honda@gmail.com",
+		"phoneNo" : "9876543201",
+		"carCatalog" : {
+			"carCatalog" : [
+				{
+					"carId" : "21",
+					"model": "modelH21",
+					"manufacturingYear": "1996",
+					"noOfSeats" : "8",
+					"serialNo" : "TeslamodelH21",
+					"city" : "Boston",
+					"maintenanceExpiryDate" : "2000",
+					"isAvailable" : true
+				},
+				
+				{
+					"carId" : "22",
+					"model": "modelH22",
+					"manufacturingYear": "1999",
+					"noOfSeats" : "4",
+					"serialNo" : "TeslamodelH22",
+					"city" : "New York",
+					"maintenanceExpiryDate" : "2005",
+					"isAvailable" : false
+				},
+				
+				{
+					"carId" : "23",
+					"model": "modelH23",
+					"manufacturingYear": "1989",
+					"noOfSeats" : "6",
+					"serialNo" : "TeslamodelH23",
+					"city" : "New York",
+					"maintenanceExpiryDate" : "2024",
+					"isAvailable" : true
+				},
+				
+				{
+					"carId" : "24",
+					"model": "modelH24",
+					"manufacturingYear": "2000",
+					"noOfSeats" : "4",
+					"serialNo" : "TeslamodelH24",
+					"city" : "Dallas",
+					"maintenanceExpiryDate" : "2025",
+					"isAvailable" : true
+				},
+				{
+					"carId" : "25",
+					"model": "modelH25",
+					"manufacturingYear": "2000",
+					"noOfSeats" : "4",
+					"serialNo" : "TeslamodelH23",
+					"city" : "California",
+					"maintenanceExpiryDate" : "2030",
+					"isAvailable" : false
+				}				
+			]		
+		}		
+	},
+	{
+		"manufacturerId" : "3",
+		"supplyName" : "BMW",
+		"email" : "bmw@gmail.com",
+		"phoneNo" : "9876543333",
+		"carCatalog" : {
+			"carCatalog" : [
+				{
+					"carId" : "31",
+					"model": "modelB31",
+					"manufacturingYear": "1998",
+					"noOfSeats" : "5",
+					"serialNo" : "BMWMdoelB31",
+					"city" : "Boston",
+					"maintenanceExpiryDate" : "2024",
+					"isAvailable" : true
+				},
+				
+				{
+					"carId" : "32",
+					"model": "modelB32",
+					"manufacturingYear": "2020",
+					"noOfSeats" : "4",
+					"serialNo" : "BMWMdoelB32",
+					"city" : "Dallas",
+					"maintenanceExpiryDate" : "2034",
+					"isAvailable" : false
+				},
+				
+				{
+					"carId" : "33",
+					"model": "modelB33",
+					"manufacturingYear": "2010",
+					"noOfSeats" : "8",
+					"serialNo" : "BMWMdoelB33",
+					"city" : "New York",
+					"maintenanceExpiryDate" : "2024",
+					"isAvailable" : true
+				},
+				
+				{
+					"carId" : "34",
+					"model": "modelB33",
+					"manufacturingYear": "2010",
+					"noOfSeats" : "8",
+					"serialNo" : "BMWMdoelB333",
+					"city" : "Dallas",
+					"maintenanceExpiryDate" : "2024",
+					"isAvailable" : false
+				},
+				{
+					"carId" : "35",
+					"model": "modelB33",
+					"manufacturingYear": "2010",
+					"noOfSeats" : "8",
+					"serialNo" : "BMWMdoelB334",
+					"city" : "New York",
+					"maintenanceExpiryDate" : "2024",
+					"isAvailable" : true
+				}				
+			]		
+		}		
+	}
+	
+	
+	
+	]
+}
