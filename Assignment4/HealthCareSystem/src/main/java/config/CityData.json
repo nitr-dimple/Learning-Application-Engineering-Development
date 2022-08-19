@@ -1,0 +1,97 @@
+{
+	"cityList" : [
+		{
+			"cityName" : "Boston",
+			"communityList" : [ {
+				"communityName" : "The Village",
+				"houseList" : [ {
+					"houseId": "BTV101"
+					},
+					{
+					"houseId": "BTV102"
+					},
+					{
+					"houseId": "BTV103"
+					}
+					
+					]		
+				},
+				{
+				"communityName" : "Gateway at Malden",
+				"houseList" : [ {
+					"houseId": "BGM101"
+					},
+					{
+					"houseId": "BGM102"
+					},
+					{
+					"houseId": "BGM103"
+					}
+					
+					]		
+				},
+				{
+				"communityName" : "The Dakota",
+				"houseList" : [ {
+					"houseId": "BTD101"
+					},
+					{
+					"houseId": "BTD102"
+					},
+					{
+					"houseId": "BTD103"
+					}
+					
+					]		
+				}
+			]
+		},
+		{
+			"cityName" : "Virginia",
+			"communityList" : [ {
+				"communityName" : "The Band",
+				"houseList" : [ {
+					"houseId": "VTB101"
+					},
+					{
+					"houseId": "VTB102"
+					},
+					{
+					"houseId": "VTB103"
+					}					
+					]		
+				},
+				{
+				"communityName" : "Ashwood",
+				"houseList" : [ {
+					"houseId": "VA101"
+					},
+					{
+					"houseId": "VA102"
+					},
+					{
+					"houseId": "VA103"
+					}
+					
+					]		
+				},
+				{
+				"communityName" : "Marquis",
+				"houseList" : [ {
+					"houseId": "VM101"
+					},
+					{
+					"houseId": "VM102"
+					},
+					{
+					"houseId": "VM103"
+					}
+					
+					]		
+				}
+			]
+		}
+		
+	]
+	
+}

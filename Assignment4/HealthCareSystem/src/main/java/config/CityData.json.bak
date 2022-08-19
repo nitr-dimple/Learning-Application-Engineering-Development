@@ -1,0 +1,11 @@
+{
+	"cityName" : "Boston",
+	"communityList" : [ {
+		"communityName" : "The Village",
+		"houseList" : [
+			"houseId": "BTV101",
+			
+			]		
+		}
+	]
+}

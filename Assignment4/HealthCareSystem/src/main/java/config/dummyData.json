@@ -1,0 +1,214 @@
+{
+	"personDirectory" : [ {
+		"firstName" : "Dimple",
+		"lastName" : "Patel",
+		"birthDate" : "1996-08-14",
+		"phoneNumber" : "9876543210",
+		"houseId": "VTB101",
+		"ssn" : "111-11-1111",
+		"patient" : {
+			"encounterHistory" : {
+				"encounterList" : [
+					{
+						"date" : "2015-08-14",
+						"vitalSigns" : {
+							"bloodPressure" : "90.55",
+							"heartRate" : "80",
+							"temperature" : "98.7"							
+						}
+					},
+					{
+						"date" : "2015-09-14",
+						"vitalSigns" : {
+							"bloodPressure" : "94.55",
+							"heartRate" : "84",
+							"temperature" : "97.9"							
+						}
+					}
+				]
+			}
+		}
+	}, 
+	{
+		"firstName" : "Daxa",
+		"lastName" : "Patel",
+		"birthDate" : "1993-12-20",
+		"phoneNumber" : "9876532110",
+		"houseId": "VTB101",
+		"ssn" : "111-11-1112",
+		"patient" : {
+			"encounterHistory" : {
+				"encounterList" : [
+					{
+						"date" : "2015-08-14",
+						"vitalSigns" : {
+							"bloodPressure" : "90.55",
+							"heartRate" : "80",
+							"temperature" : "98.7"							
+						}
+					},
+					{
+						"date" : "2015-09-14",
+						"vitalSigns" : {
+							"bloodPressure" : "94.55",
+							"heartRate" : "84",
+							"temperature" : "97.9"							
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"firstName" : "Piyush",
+		"lastName" : "Patel",
+		"birthDate" : "1999-12-30",
+		"phoneNumber" : "9236543210",
+		"houseId": "VTB101",
+		"ssn" : "111-11-1113",
+		"patient" : {
+			"encounterHistory" : {
+				"encounterList" : [
+					{
+						"date" : "2015-08-14",
+						"vitalSigns" : {
+							"bloodPressure" : "90.55",
+							"heartRate" : "80",
+							"temperature" : "98.7"							
+						}
+					},
+					{
+						"date" : "2015-09-14",
+						"vitalSigns" : {
+							"bloodPressure" : "94.55",
+							"heartRate" : "84",
+							"temperature" : "98.1"							
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"firstName" : "Mainesh",
+		"lastName" : "Antiya",
+		"birthDate" : "1997-09-23",
+		"phoneNumber" : "9123543210",
+		"houseId": "VTB103",
+		"ssn" : "111-11-1114",
+		"patient" : {
+			"encounterHistory" : {
+				"encounterList" : [
+					{
+						"date" : "2015-08-14",
+						"vitalSigns" : {
+							"bloodPressure" : "90.55",
+							"heartRate" : "80",
+							"temperature" : "98.7"							
+						}
+					},
+					{
+						"date" : "2015-09-14",
+						"vitalSigns" : {
+							"bloodPressure" : "94.55",
+							"heartRate" : "84",
+							"temperature" : "98.1"							
+						}
+					}
+				]
+			}
+		}		
+	},
+	{
+		"firstName" : "Dimple",
+		"lastName" : "Antiya",
+		"birthDate" : "1993-01-10",
+		"phoneNumber" : "9874532210",
+		"houseId": "VTB103",
+		"ssn" : "111-11-1115",
+		"patient" : {
+			"encounterHistory" : {
+				"encounterList" : [
+					{
+						"date" : "2015-08-14",
+						"vitalSigns" : {
+							"bloodPressure" : "90.55",
+							"heartRate" : "80",
+							"temperature" : "98.7"							
+						}
+					},
+					{
+						"date" : "2015-09-14",
+						"vitalSigns" : {
+							"bloodPressure" : "94.55",
+							"heartRate" : "84",
+							"temperature" : "97.7"							
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"firstName" : "Sanat",
+		"lastName" : "Kondhol",
+		"birthDate" : "1996-06-16",
+		"phoneNumber" : "9874543210",
+		"houseId": "VM103",
+		"ssn" : "111-11-1116",
+		"patient" : {
+			"encounterHistory" : {
+				"encounterList" : [
+					{
+						"date" : "2015-08-14",
+						"vitalSigns" : {
+							"bloodPressure" : "90.55",
+							"heartRate" : "80",
+							"temperature" : "98.7"							
+						}
+					},
+					{
+						"date" : "2015-09-14",
+						"vitalSigns" : {
+							"bloodPressure" : "94.55",
+							"heartRate" : "84",
+							"temperature" : "97.7"							
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"firstName" : "Bhavisha",
+		"lastName" : "Kondhol",
+		"birthDate" : "1994-03-08",
+		"phoneNumber" : "9876123210",
+		"houseId": "VM103",
+		"ssn" : "111-11-1117",
+		"patient" : {
+			"encounterHistory" : {
+				"encounterList" : [
+					{
+						"date" : "2015-08-14",
+						"vitalSigns" : {
+							"bloodPressure" : "90.55",
+							"heartRate" : "80",
+							"temperature" : "98.7"							
+						}
+					},
+					{
+						"date" : "2015-09-14",
+						"vitalSigns" : {
+							"bloodPressure" : "94.55",
+							"heartRate" : "84",
+							"temperature" : "99.7"							
+						}
+					}
+				]
+			}
+		}
+	}
+	
+	]
+}
