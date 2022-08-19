@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+    <EventHandler event="windowDeactivated" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowDeactivated"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="CarCatalogPanel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="addShowPanel" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="973" max="32767" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="192" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="484" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="31" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="CarCatalogPanel" max="32767" attributes="0"/>
+                      <Component id="addShowPanel" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Sitka Small" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Car Management System"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="CarCatalogPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Car Catalog"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="displaybtn" max="32767" attributes="0"/>
+                          <Component id="createbtn" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="40" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
+                      <Component id="createbtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="displaybtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="createbtn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Car"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="createbtnActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="displaybtn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Display Car"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="displaybtnActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="addShowPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+                <CompoundBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="addPanel" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="showcarPanel" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="addPanel" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="showcarPanel" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="addPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Add new Car Details"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="brandtxt" max="32767" attributes="0"/>
+                                      <Component id="modeltxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="colortxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="yeartxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="engineNumberlbl" max="32767" attributes="0"/>
+                                      <Component id="yearlbl" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Colorlbl" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="mdellbl" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="brandLabel" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="engineNumbertxt" max="32767" attributes="0"/>
+                                      <Component id="numberOfSeatslbl" pref="189" max="32767" attributes="0"/>
+                                      <Component id="numberOfSeatstxt" max="32767" attributes="0"/>
+                                      <Component id="licensePlatelbl" max="32767" attributes="0"/>
+                                      <Component id="licensePlatetxt" max="32767" attributes="0"/>
+                                      <Component id="warrantyYearlbl" max="32767" attributes="0"/>
+                                      <Component id="warrantyYeartxt" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Component id="addCarbtn" min="-2" pref="123" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="onamelbl" max="32767" attributes="0"/>
+                                      <Component id="onametxt" max="32767" attributes="0"/>
+                                      <Component id="oteleNumberlbl" max="32767" attributes="0"/>
+                                      <Component id="oteleNumbertxt" max="32767" attributes="0"/>
+                                      <Component id="oemaillbl" max="32767" attributes="0"/>
+                                      <Component id="oemailtxt" max="32767" attributes="0"/>
+                                      <Component id="olicenselbl" max="32767" attributes="0"/>
+                                      <Component id="olicensetxt" max="32767" attributes="0"/>
+                                      <Component id="ossnlbl" max="32767" attributes="0"/>
+                                      <Component id="ossntxt" max="32767" attributes="0"/>
+                                      <Component id="oaddresslbl" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                                      <Component id="phototxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="photobtn" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="servicerecordlbl" min="-2" pref="233" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="costtxt" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="costlbl" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="mileagetxt" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="mileagelbl" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="descriptiontxt" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="descriptionlbl" alignment="0" pref="214" max="32767" attributes="0"/>
+                                                  <Component id="datetxt" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="datelbl" alignment="0" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="191" max="-2" attributes="0"/>
+                                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="photolbl" min="-2" pref="200" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="465" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="brandLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="onamelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="brandtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="onametxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="servicerecordlbl" min="-2" pref="28" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="mdellbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="oteleNumberlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="datelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="modeltxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="oteleNumbertxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="datetxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Colorlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="oemaillbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="descriptionlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="colortxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="oemailtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="descriptiontxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="yearlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="olicenselbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="mileagelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="yeartxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="olicensetxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="mileagetxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="engineNumberlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ossnlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="costlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="engineNumbertxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ossntxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="costtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="numberOfSeatslbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="oaddresslbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="numberOfSeatstxt" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="licensePlatelbl" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="licensePlatetxt" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jScrollPane1" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="286" max="-2" attributes="0"/>
+                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="warrantyYearlbl" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="warrantyYeartxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="addCarbtn" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  <Component id="photobtn" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="phototxt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="photolbl" min="-2" pref="179" max="-2" attributes="0"/>
+                                  <EmptySpace pref="26" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="brandLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Brand"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="mdellbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Model"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="brandtxt">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="brandtxtActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="modeltxt">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modeltxtActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Colorlbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Color"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="colortxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="yearlbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Year"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="yeartxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="engineNumberlbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Engine Number"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="engineNumbertxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="numberOfSeatslbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Number of Seats"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="numberOfSeatstxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="licensePlatelbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="License Plate"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="licensePlatetxt">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="licensePlatetxtActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="warrantyYearlbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Warranty Year"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="warrantyYeartxt">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="warrantyYeartxtActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="onamelbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Owner Name"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="onametxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="oteleNumberlbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Owner Telephone Number"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="oteleNumbertxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="oemaillbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Owner Email Address"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="oemailtxt">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="oemailtxtActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="olicenselbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Owner Driver License"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="olicensetxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="ossnlbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Owner Social Security Number"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="ossntxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="oaddresslbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Owner Address"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="oaddresstxt">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JButton" name="addCarbtn">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Add car"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addCarbtnActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="phototxt">
+                </Component>
+                <Component class="javax.swing.JButton" name="photobtn">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Upload Car Photo"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="photobtnActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="photolbl">
+                </Component>
+                <Component class="javax.swing.JLabel" name="servicerecordlbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Add Service Record of Car"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="datelbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Date"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="datetxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="descriptionlbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Description"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="descriptiontxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="mileagelbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mileage"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="mileagetxt">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mileagetxtActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="costlbl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cost ($)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="costtxt">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Add Service Record"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="showcarPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Show car details"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="1414" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="614" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
